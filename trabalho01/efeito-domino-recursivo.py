@@ -2,7 +2,6 @@ import sys
 sys.setrecursionlimit(10000)
 
 def mov_min(linha: list[int], n: int, h: int, sobra: int) -> int:
-    print(n, sobra)
     if n == 2:
         ans = 0 if linha[0] + sobra <= h else -1
     else:
